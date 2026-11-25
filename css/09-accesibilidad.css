@@ -1,0 +1,9 @@
+/* =====================================================
+   ACCESIBILIDAD: desactiva animaciones si el dispositivo lo pide
+   ===================================================== */
+
+@media(prefers-reduced-motion:reduce) {
+  * {
+    animation: none!important;
+  }
+}

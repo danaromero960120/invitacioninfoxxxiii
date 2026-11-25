@@ -1,0 +1,55 @@
+/* =====================================================
+   CUENTA REGRESIVA: los 4 cuadros (días, horas, min, seg) y el mensaje
+   ===================================================== */
+
+.cd {
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 12px;
+  max-width: 640px;
+  margin: 38px auto 8px;
+}
+
+.cd div {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  padding: 18px 4px 12px;
+  backdrop-filter: blur(8px);
+  position: relative;
+  overflow: hidden;
+}
+
+.cd div::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 2px;
+  background: linear-gradient(90deg,transparent,var(--cy),transparent);
+}
+
+.cd b {
+  display: block;
+  font-family: Orbitron;
+  font-size: clamp(1.6rem,7vw,3rem);
+  font-weight: 700;
+  text-shadow: 0 0 18px rgba(46,230,255,.6);
+}
+
+.cd span {
+  font-size: .82rem;
+  letter-spacing: .22em;
+  color: var(--mute);
+  text-transform: uppercase;
+}
+
+#msg {
+  min-height: 1.4em;
+  color: var(--gr);
+  font-family: Orbitron;
+  font-size: .8rem;
+  letter-spacing: .2em;
+  margin-top: 10px;
+}
