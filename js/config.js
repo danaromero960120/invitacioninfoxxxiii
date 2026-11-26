@@ -4,7 +4,7 @@
 
 // ---- Enlaces de los 3 botones de "Accesos" ----
 const LINKS = {
-  registro:    "#",                      // Link de registro para obtener el QR
+  registro:    "https://t3lacomex.github.io/controlAcceso/",                      // Link de registro para obtener el QR
   repositorio: "https://widen-vessel-concerned.ngrok-free.dev/",                      // Link del repositorio (proyectos y prácticas)
   vestimenta:  "assets/vestimenta.pdf"   // PDF de vestimenta: guárdalo en la carpeta assets/
 };
