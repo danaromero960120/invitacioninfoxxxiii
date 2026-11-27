@@ -83,3 +83,5 @@ $('star').addEventListener('click', () => {
   lanzarConfeti(36);
   cambiarTodas(hayApagadas());
 });
+
+console.log('By Ingrid Danae Valle Romero - Diseñadora UI/UX desde el Backend');
