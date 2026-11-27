@@ -25,6 +25,8 @@
   .lk { padding: 20px 16px; }
   .lk h3 { font-size: 1.05rem; }
   .card p { font-size: 1.1rem; }
+  .ig { flex-direction: column; text-align: center; padding: 20px 16px; }
+  .ig p { font-size: 1.2rem; }
 }
 
 /* ---------- Celular (hasta 600px) ---------- */
